@@ -1,0 +1,35 @@
+================================================================================
+Which DAEs have already been moved to support init/limiting by Oct 1st 2013?
+--------------------------------------------------------------------------------
+  - BJTdiffpair_DAEAPIv6.m
+  - diodeCapIsrc_daeAPIv6.m
+  - parallelLC.m
+  - parallelRLCdiode.m
+  - RClineDAEAPIv6.m
+  - ReduceRREapplyingConservationv6_2.m
+  - SH_CMOS_inverter_DAEAPIv6.m
+  - UltraSimplePLL_DAEAPIv6.m
+  - vsrcRLCdiode_daeAPIv6.m
+================================================================================
+
+
+
+
+================================================================================
+PUT TOGETHER A LIBRARY OF PRIMITIVE CIRCUITS:
+--------------------------------------------------------------------------------
+  - a VSRC
+  - an ISRC
+  - an inverter chain
+  - a resistor; a capacitor; a resistor-capacitor pair; one to ground
+  - a diffpair primitive (with which you can make a gilbert cell)
+  - MOS/BJT/Widlar current mirrors
+  - NAND gate
+  - D latch
+  - edge-triggered flip-flop
+  - a voltage level translator circuit?
+  - buck and boost switching voltage regulators
+  - switched DC to DC voltage converters
+  - an RLGC transmission line (segmented)
+  - a PTAT voltage reference circuit
+================================================================================
